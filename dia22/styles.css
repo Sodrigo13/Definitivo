@@ -1,0 +1,366 @@
+/* Reset e configurações iniciais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+   
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+
+
+/* Cabeçalho */
+
+.faixaamarela {
+    background-color: #CCD528;
+    height: 1vh;
+}
+
+.linha {
+    background-color: #020826;
+    height: 6px;
+    margin-top: 1vh;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #8E0038;
+    color: #fff;
+}
+
+.logo {
+    font-size: 2rem;
+    font-family: 'Cursive';
+}
+
+/* Banner Principal */
+.main-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #020826;
+    color: #fff;
+    text-align: left;
+}
+
+.main-banner .content {
+    max-width: 50%;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-banner h1 {
+    font-size: 3rem;
+    justify-content: center;
+    display: flex;
+}
+
+.main-banner h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    justify-content: center;
+    display: flex;
+}
+
+.main-banner p {
+    margin: 20px 0;
+    font-size: 1rem;
+    justify-content: center;
+    display: flex;
+}
+
+.cta {
+    padding: 10px 20px;
+    background-color: #FF4C4C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    margin-left: 16vh;
+}
+
+.main-banner .img {
+    margin-left: 20px;
+}
+
+.main-banner .img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Soft Skills */
+.soft-skills {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.soft-skills h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: block; /* Mude de flex para block */
+    margin-top: 15vh;
+}
+
+.skill {
+    display: flex; /* Mantenha isso */
+    align-items: center; /* Mantenha isso */
+    margin-bottom: 20px; /* Adicione isso para espaçamento entre as skills */
+    margin-right: 30vh;
+    margin-left: 30vh;
+    justify-content: center;
+    margin-top: 12vh;
+    text-align: center;
+}
+
+.circle {
+    width: 40vh; /* Mantenha isso */
+    height: 40vh; /* Mantenha isso */
+    background-color: #d9d9d9;
+    border: 30vh;
+    border-color: #FF4C4C;
+    border-radius: 70%;
+    margin-right: 20vh; /* Mantenha isso para espaçamento entre a imagem e o texto */
+    margin-left: 10vh;
+}
+
+.reverse {
+    flex-direction: row-reverse; /* Inverte a direção do flex */
+    margin-right: 20vh;
+}
+
+.faixaazul {
+    background-color: #CCD528;
+    height: 1vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Navegação */
+.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #020826;
+    padding: 10px 0;
+    
+}
+
+.navigation a {
+    color: #020826;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px; /* Adiciona preenchimento para parecer um botão */
+    background-color: #fff; /* Cor de fundo do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Efeito de transição ao passar o mouse */
+    border: 10vh;
+    border-bottom: #ff2c2c;
+}
+
+.navigation a:hover {
+    background-color: #ff2c2c; /* Cor de fundo ao passar o mouse */
+}
+
+
+.faixaazul {
+    background-color: #ff2c2c;
+    height: 1vh;
+    margin-top: 7vh;
+}
+
+.faixaazul2 {
+    background-color: #ff2c2c;
+    height: 1vh;
+}
+
+
+
+
+
+
+/* Quem Sou Eu */
+.opai {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.conteudo{
+    display:flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+}
+
+.texto{
+    margin-top: 8vh;
+    margin-left: 10vh;
+}
+
+
+
+.img-eu {
+    width: 30%;
+    height: 400px;
+    background-color: #d9d9d9;
+    margin: 20px 0;
+    border: #020826;
+    border-radius: 5vh;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Projetos de Sucesso */
+.projects {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #020826;
+    margin-top: 10vh;
+    color: #fff;
+}
+
+.project1 {
+    width: 30%;
+    margin: 10px 0;
+    margin-top: 21vh;
+    text-align: center;
+}
+
+.project2 {
+    width: 30%;
+    margin: 10px 0;
+    margin-top: 14vh;
+    text-align: center;
+}
+
+.project3 {
+    width: 30%;
+    margin: 10px 0;
+    margin-top: 7vh;
+    text-align: center;
+}
+
+.project-image {
+    width: 50%;
+    height: 50%;
+    border-radius: 10%;
+    background-color: #d9d9d9;
+    margin-bottom: 10px;
+    color: #020826;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #020826;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* Contato */
+.contact {
+    padding: 40px 20px;
+    background-color: #8E0038;
+    text-align: center;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    border-width: 20vh;
+    border: #020826;
+    border-radius: 10vh;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.botton {
+    padding: 10px 20px;
+    background-color: #020826;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+}
+
+/* Rodapé */
+.footer {
+    height: 20vh;
+    margin-top: 15vh;
+    padding: 10px 20px;
+    background-color: #8E0038;
+    color: #fff;
+    text-align: center;
+}
