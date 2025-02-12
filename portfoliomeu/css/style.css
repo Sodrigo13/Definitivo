@@ -1,0 +1,45 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.navbar {
+    background-color: #C82850; 
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.sod {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faixaamarela {
+    background-color: #CCD528;
+    height: 2vh;
+}
+
+.mural {
+    background-color: #141428;
+    height: 85vh;
+    color: aliceblue;
+}
+
+.skills {
+    height: 30vh;
+}
+
+.linha {
+    background-color: #C82850;
+    height: 1vh;
+    margin-top: 3vh;
+}
+
+.button {
+    background-color: #CCD528;
+}
