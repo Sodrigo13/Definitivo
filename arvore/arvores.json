@@ -1,0 +1,104 @@
+<div class="card-container"><div class="card">
+                    <img src="" alt="Foto">
+                    <div class="button-vertical">
+                        <button class="upload-button">📷</button>
+                        <button class="mark-deceased">⚰️</button>
+                        <button class="mark-crowned">👑</button>
+                        <input type="file" class="file-input" style="display:none;">
+                    </div>
+                    <div class="crown"></div>
+                    <input type="text" value="" placeholder="Nome">
+                    <input type="text" value="" placeholder="Data de Nascimento">
+                    <input type="text" value="" placeholder="Data de Falecimento">
+                    <div class="button-container">
+                        <button class="add-spouse">+</button>
+                        <button class="add-child">+</button>
+                        <button class="delete">×</button>
+                    </div>
+                </div><div class="spouse-container"></div><div class="child-container"></div></div>
+
+
+
+
+
+
+
+
+                <div id="tree-container">
+        <button id="add-person">Adicionar Pessoa</button>
+        <button id="save-tree">Salvar Árvore</button>
+        <div id="tree"><div class="card-container"><div class="card">
+                    <img src="" alt="Foto">
+                    <div class="button-vertical">
+                        <button class="upload-button">📷</button>
+                        <button class="mark-deceased">⚰️</button>
+                        <button class="mark-crowned">👑</button>
+                        <input type="file" class="file-input" style="display:none;">
+                    </div>
+                    <div class="crown"></div>
+                    <input type="text" value="" placeholder="Nome">
+                    <input type="text" value="" placeholder="Data de Nascimento">
+                    <input type="text" value="" placeholder="Data de Falecimento">
+                    <div class="button-container">
+                        <button class="add-spouse">+</button>
+                        <button class="add-child">+</button>
+                        <button class="delete">×</button>
+                    </div>
+                </div><div class="child-container"></div><div class="spouse-container"><div class="card">
+                    <img src="" alt="Foto">
+                    <div class="crown"></div>
+                    <button class="upload-button">📷</button>
+                    <button class="mark-deceased">⚰️</button>
+                    <button class="mark-crowned">👑</button>
+                    <input type="file" class="file-input">
+                    <input type="text" value="" placeholder="Nome do Cônjuge">
+                    <input type="text" value="" placeholder="Data de Nascimento">
+                    <input type="text" value="" placeholder="Data de Falecimento">
+                    <div class="button-container">
+                        <button class="add-child">+</button>
+                        <button class="delete">×</button>
+                    </div>
+                <div class="child-container"><div class="card">
+                    <img src="" alt="Foto">
+                    <div class="crown"></div>
+                    <button class="upload-button">📷</button>
+                    <button class="mark-deceased">⚰️</button>
+                    <button class="mark-crowned">👑</button>
+                    <input type="file" class="file-input">
+                    <input type="text" value="" placeholder="Nome do Filho">
+                    <input type="text" value="" placeholder="Data de Nascimento">
+                    <input type="text" value="" placeholder="Data de Falecimento">
+                    <div class="button-container">
+                        <button class="add-spouse">+</button>
+                        <button class="delete">×</button>
+                    </div>
+                </div><div class="card">
+                    <img src="" alt="Foto">
+                    <div class="crown"></div>
+                    <button class="upload-button">📷</button>
+                    <button class="mark-deceased">⚰️</button>
+                    <button class="mark-crowned">👑</button>
+                    <input type="file" class="file-input">
+                    <input type="text" value="" placeholder="Nome do Filho">
+                    <input type="text" value="" placeholder="Data de Nascimento">
+                    <input type="text" value="" placeholder="Data de Falecimento">
+                    <div class="button-container">
+                        <button class="add-spouse">+</button>
+                        <button class="delete">×</button>
+                    </div>
+                </div></div></div></div></div></div>
+
+        
+
+
+
+
+
+
+
+
+        <form id="tree-form" action="banco.php" method="POST" style="display: none;">
+            <input type="hidden" name="treeData" id="treeData" value="[{&quot;name&quot;:&quot;&quot;,&quot;birthDate&quot;:&quot;&quot;,&quot;deathDate&quot;:&quot;&quot;,&quot;imageUrl&quot;:&quot;http://localhost/nova/index.php&quot;,&quot;children&quot;:[],&quot;spouses&quot;:[]}]">
+    </form>
+        
+    </div>
